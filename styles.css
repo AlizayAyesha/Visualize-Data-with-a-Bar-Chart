@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+#chart {
+  background: #f9f9f9;
+  margin: 20px;
+}
+
+.bar {
+  fill: steelblue;
+  transition: fill 0.2s ease;
+}
+
+.bar:hover {
+  fill: orange;
+}
+
+#tooltip {
+  background: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
